@@ -1,0 +1,21 @@
+/* p::first-line{
+    color: aqua;
+} */
+/* #first{
+    color: green;
+} */
+/*    psuedo selector */
+p::before{
+    content: "google";
+}
+input{
+    border: 2px solid greenyellow;
+}
+input::-webkit-file-upload-button{
+    background-color: aqua;
+    border-radius: 10px
+}
+/* Psudeo class */
+a:first-child{
+    color: rgba(60, 255, 0, 0.438);
+}
